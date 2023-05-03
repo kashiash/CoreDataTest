@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F03B7432A02669400A1E653 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03B7422A02669400A1E653 /* MoviesView.swift */; };
+		3F03B7452A02680900A1E653 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03B7442A02680900A1E653 /* MoviesViewModel.swift */; };
+		3F03B7472A0272DB00A1E653 /* FetchRequestMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03B7462A0272DB00A1E653 /* FetchRequestMoviesView.swift */; };
+		3F03B7492A028A2F00A1E653 /* ImportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03B7482A028A2F00A1E653 /* ImportViewModel.swift */; };
+		3F03B74B2A028A9800A1E653 /* MovieDbImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03B74A2A028A9800A1E653 /* MovieDbImporter.swift */; };
 		3F94526F2A024025004555F4 /* CoreDataTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94526E2A024025004555F4 /* CoreDataTestApp.swift */; };
 		3F9452712A024025004555F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9452702A024025004555F4 /* ContentView.swift */; };
 		3F9452732A024026004555F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9452722A024026004555F4 /* Assets.xcassets */; };
@@ -14,10 +19,14 @@
 		3F94527F2A0242D6004555F4 /* CoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F94527D2A0242D6004555F4 /* CoreDataTest.xcdatamodeld */; };
 		3F9452812A0246C1004555F4 /* StorageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9452802A0246C1004555F4 /* StorageContainer.swift */; };
 		3F9452832A0250E2004555F4 /* MovieDbApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9452822A0250E2004555F4 /* MovieDbApi.swift */; };
-		3F9452852A025165004555F4 /* MovieDbImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9452842A025165004555F4 /* MovieDbImporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F03B7422A02669400A1E653 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		3F03B7442A02680900A1E653 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		3F03B7462A0272DB00A1E653 /* FetchRequestMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequestMoviesView.swift; sourceTree = "<group>"; };
+		3F03B7482A028A2F00A1E653 /* ImportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewModel.swift; sourceTree = "<group>"; };
+		3F03B74A2A028A9800A1E653 /* MovieDbImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDbImporter.swift; sourceTree = "<group>"; };
 		3F94526B2A024025004555F4 /* CoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F94526E2A024025004555F4 /* CoreDataTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTestApp.swift; sourceTree = "<group>"; };
 		3F9452702A024025004555F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,7 +36,6 @@
 		3F94527E2A0242D6004555F4 /* CoreDataTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTest.xcdatamodel; sourceTree = "<group>"; };
 		3F9452802A0246C1004555F4 /* StorageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageContainer.swift; sourceTree = "<group>"; };
 		3F9452822A0250E2004555F4 /* MovieDbApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDbApi.swift; sourceTree = "<group>"; };
-		3F9452842A025165004555F4 /* MovieDbImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDbImporter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 		3F94526D2A024025004555F4 /* CoreDataTest */ = {
 			isa = PBXGroup;
 			children = (
+				3F03B74A2A028A9800A1E653 /* MovieDbImporter.swift */,
 				3F94526E2A024025004555F4 /* CoreDataTestApp.swift */,
 				3F9452702A024025004555F4 /* ContentView.swift */,
 				3F9452722A024026004555F4 /* Assets.xcassets */,
@@ -68,7 +77,10 @@
 				3F94527D2A0242D6004555F4 /* CoreDataTest.xcdatamodeld */,
 				3F9452802A0246C1004555F4 /* StorageContainer.swift */,
 				3F9452822A0250E2004555F4 /* MovieDbApi.swift */,
-				3F9452842A025165004555F4 /* MovieDbImporter.swift */,
+				3F03B7422A02669400A1E653 /* MoviesView.swift */,
+				3F03B7442A02680900A1E653 /* MoviesViewModel.swift */,
+				3F03B7462A0272DB00A1E653 /* FetchRequestMoviesView.swift */,
+				3F03B7482A028A2F00A1E653 /* ImportViewModel.swift */,
 			);
 			path = CoreDataTest;
 			sourceTree = "<group>";
@@ -151,11 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F03B7472A0272DB00A1E653 /* FetchRequestMoviesView.swift in Sources */,
 				3F9452832A0250E2004555F4 /* MovieDbApi.swift in Sources */,
+				3F03B74B2A028A9800A1E653 /* MovieDbImporter.swift in Sources */,
+				3F03B7492A028A2F00A1E653 /* ImportViewModel.swift in Sources */,
+				3F03B7432A02669400A1E653 /* MoviesView.swift in Sources */,
 				3F9452712A024025004555F4 /* ContentView.swift in Sources */,
 				3F9452812A0246C1004555F4 /* StorageContainer.swift in Sources */,
+				3F03B7452A02680900A1E653 /* MoviesViewModel.swift in Sources */,
 				3F94527F2A0242D6004555F4 /* CoreDataTest.xcdatamodeld in Sources */,
-				3F9452852A025165004555F4 /* MovieDbImporter.swift in Sources */,
 				3F94526F2A024025004555F4 /* CoreDataTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +311,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -333,7 +349,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;

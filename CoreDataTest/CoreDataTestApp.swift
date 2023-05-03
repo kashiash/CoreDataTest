@@ -9,10 +9,21 @@ import SwiftUI
 
 @main
 struct CoreDataTestApp: App {
-    
+    let storageProvider = StorageProvider()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MoviesView(viewModel: MoviesViewModel(storageProvider:storageProvider))
+                .tabItem{
+                    Image(systemName: "movie")
+                    Text("Filmy")
+                }
+            
+            FetchRequestMoviesView()
+                .environment(\.managedObjectContext, storageProvider.persistentContainer.viewContext)
+                .tabItem {
+                    Image(systemName: "film")
+                    Text("Fetch request")
+                }
         }
     }
 }
