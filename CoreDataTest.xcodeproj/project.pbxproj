@@ -11,6 +11,10 @@
 		3F9452712A024025004555F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9452702A024025004555F4 /* ContentView.swift */; };
 		3F9452732A024026004555F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9452722A024026004555F4 /* Assets.xcassets */; };
 		3F9452772A024026004555F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9452762A024026004555F4 /* Preview Assets.xcassets */; };
+		3F94527F2A0242D6004555F4 /* CoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F94527D2A0242D6004555F4 /* CoreDataTest.xcdatamodeld */; };
+		3F9452812A0246C1004555F4 /* StorageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9452802A0246C1004555F4 /* StorageContainer.swift */; };
+		3F9452832A0250E2004555F4 /* MovieDbApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9452822A0250E2004555F4 /* MovieDbApi.swift */; };
+		3F9452852A025165004555F4 /* MovieDbImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9452842A025165004555F4 /* MovieDbImporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		3F9452722A024026004555F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9452742A024026004555F4 /* CoreDataTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreDataTest.entitlements; sourceTree = "<group>"; };
 		3F9452762A024026004555F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F94527E2A0242D6004555F4 /* CoreDataTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTest.xcdatamodel; sourceTree = "<group>"; };
+		3F9452802A0246C1004555F4 /* StorageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageContainer.swift; sourceTree = "<group>"; };
+		3F9452822A0250E2004555F4 /* MovieDbApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDbApi.swift; sourceTree = "<group>"; };
+		3F9452842A025165004555F4 /* MovieDbImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDbImporter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				3F9452722A024026004555F4 /* Assets.xcassets */,
 				3F9452742A024026004555F4 /* CoreDataTest.entitlements */,
 				3F9452752A024026004555F4 /* Preview Content */,
+				3F94527D2A0242D6004555F4 /* CoreDataTest.xcdatamodeld */,
+				3F9452802A0246C1004555F4 /* StorageContainer.swift */,
+				3F9452822A0250E2004555F4 /* MovieDbApi.swift */,
+				3F9452842A025165004555F4 /* MovieDbImporter.swift */,
 			);
 			path = CoreDataTest;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9452832A0250E2004555F4 /* MovieDbApi.swift in Sources */,
 				3F9452712A024025004555F4 /* ContentView.swift in Sources */,
+				3F9452812A0246C1004555F4 /* StorageContainer.swift in Sources */,
+				3F94527F2A0242D6004555F4 /* CoreDataTest.xcdatamodeld in Sources */,
+				3F9452852A025165004555F4 /* MovieDbImporter.swift in Sources */,
 				3F94526F2A024025004555F4 /* CoreDataTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +295,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -317,7 +333,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -354,6 +370,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F94527D2A0242D6004555F4 /* CoreDataTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F94527E2A0242D6004555F4 /* CoreDataTest.xcdatamodel */,
+			);
+			currentVersion = 3F94527E2A0242D6004555F4 /* CoreDataTest.xcdatamodel */;
+			path = CoreDataTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F9452632A024025004555F4 /* Project object */;
 }
