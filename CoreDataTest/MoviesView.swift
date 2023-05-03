@@ -11,8 +11,26 @@ struct MoviesView: View {
     @ObservedObject var viewModel: MoviesViewModel
     
     var body: some View {
-        List(viewModel.movies) { (movie: Movie) in
-            Text(movie.title ?? "--")
+        NavigationStack {
+            VStack{
+                List(viewModel.movies) { (movie: Movie) in
+                    NavigationLink{
+                        VStack(alignment: .leading) {
+                            MovieDetailView(movie: movie)
+                        }
+                    } label: {
+                        VStack(alignment: .leading) {
+                            Text(movie.title ?? "--")
+                            Text(movie.releaseYear)
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Movies")
+            
+    
+
+            
         }
     }
 }
